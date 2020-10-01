@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/starwars"
+        android:paddingStart="140dp"
+        android:text="Apply"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/engBtn"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/round_buttons"
+        android:text="Engineering"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/medBtn"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/round_buttons"
+        android:text="Medical School"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/businessBtn"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/round_buttons"
+        android:text="Business"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/lawBtn"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/round_buttons"
+        android:text="Law School"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="126dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/roundbtn2"
+        android:text="Next"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="193dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="450dp"
+        app:srcCompat="@mipmap/androidlogo_foreground" />
+
+</RelativeLayout>
